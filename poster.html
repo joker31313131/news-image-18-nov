@@ -15,16 +15,16 @@
   .kicker { display: flex; justify-content: space-between; align-items: baseline;
     font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
     font-size: 13px; letter-spacing: 3px; font-weight: 700; color: #8a1c1c;
-    text-transform: uppercase; padding-bottom: 2px; }
+    text-transform: uppercase; padding-bottom: 1px; }
   .kicker .right { color: #141414; }
   .dateline { font-size: 50px; line-height: 1.0; font-weight: 700;
-    letter-spacing: 0.5px; text-align: center; padding: 1px 0 3px; }
+    letter-spacing: 0.5px; text-align: center; padding: 0 0 2px; }
   .strip { background: #141414; color: #f6f1e7; text-align: center;
     font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
-    font-size: 15px; font-weight: 700; letter-spacing: 4px; padding: 4px 0 3px;
+    font-size: 15px; font-weight: 700; letter-spacing: 4px; padding: 3px 0 2px;
     text-transform: uppercase; }
   .rule-double { border-top: 3px solid #141414; border-bottom: 1px solid #141414;
-    height: 5px; margin: 4px 0 6px; }
+    height: 5px; margin: 3px 0 4px; }
 
   /* ---------- shared bits ---------- */
   .num { display: inline-flex; align-items: center; justify-content: center;
@@ -41,46 +41,47 @@
     background: #f2c94c; padding: 3px 7px; text-transform: uppercase; white-space: nowrap; }
 
   /* ---------- features ---------- */
-  .features { display: flex; gap: 9px; height: 174px; flex: none; }
-  .feat { border: 2.5px solid #141414; background: #fffdf6; padding: 8px 12px 7px;
+  .features { display: flex; gap: 9px; height: 162px; flex: none; }
+  .feat { border: 2.5px solid #141414; background: #fffdf6; padding: 7px 12px 6px;
     flex: 1; display: flex; flex-direction: column; overflow: hidden; }
   .feat.lead { flex: 1.3; }
   .feat .head { display: flex; align-items: center; gap: 7px; }
   .feat .head svg { width: 38px; height: 28px; flex: none; margin-left: auto; }
-  .feat h1 { font-size: 23px; line-height: 1.08; margin: 5px 0 4px; }
-  .feat h2 { font-size: 20px; line-height: 1.1; margin: 5px 0 4px; }
-  .feat p { font-size: 13px; line-height: 1.24; color: #262626; }
+  .feat h1 { font-size: 22px; line-height: 1.08; margin: 4px 0 4px; }
+  .feat h2 { font-size: 19px; line-height: 1.1; margin: 4px 0 4px; }
+  .feat p { font-size: 12.6px; line-height: 1.24; color: #262626; }
   .why { margin-top: auto; border-top: 1.2px solid #141414; padding-top: 4px;
     font-size: 11.6px; line-height: 1.22; color: #262626; }
   .why b { font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
     font-size: 10px; letter-spacing: 1.2px; color: #8a1c1c; }
 
   /* ---------- numbers strip ---------- */
-  .numbers { margin-top: 5px; border: 1.8px solid #141414; background: #fffdf6;
-    padding: 3px 14px; flex: none; display: flex; align-items: center; gap: 18px; }
+  .numbers { margin-top: 4px; border: 1.8px solid #141414; background: #fffdf6;
+    padding: 1px 14px; flex: none; display: flex; align-items: center; gap: 18px; }
   .numbers h3 { font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
     font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
     flex: none; }
   .numbers h3 span { color: #8a1c1c; }
   .stat { display: flex; align-items: baseline; gap: 8px; flex: 1; }
   .stat b { font-size: 19px; color: #8a1c1c; white-space: nowrap; }
-  .stat span { font-size: 10.8px; line-height: 1.15; color: #262626; }
+  .stat span { font-size: 10.6px; line-height: 1.15; color: #262626; }
 
   /* ---------- panel grid ---------- */
-  .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px;
-    margin-top: 5px; flex: none; }
-  .panel { border: 1.8px solid #141414; background: #fffdf6; padding: 6px 10px 4px;
-    height: 77px; overflow: hidden; display: flex; flex-direction: column; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3px;
+    margin-top: 4px; flex: none; }
+  .panel { border: 1.8px solid #141414; background: #fffdf6; padding: 5px 9px 3px;
+    height: 60px; overflow: hidden; display: flex; flex-direction: column; }
   .panel .phead { display: flex; align-items: flex-start; gap: 7px; }
-  .panel .phead .num { width: 20px; height: 20px; font-size: 11.5px; margin-top: 1px; }
-  .panel h2 { font-size: 15.5px; line-height: 1.1; }
-  .panel p { font-size: 12.2px; line-height: 1.2; color: #262626; margin-top: 3px; }
+  .panel .phead .num { width: 19px; height: 19px; font-size: 11px; margin-top: 1px; }
+  .panel h2 { font-size: 14.8px; line-height: 1.08; }
+  .panel p { font-size: 11.6px; line-height: 1.18; color: #262626; margin-top: 2px; }
   .ptags { margin-top: auto; display: flex; align-items: center; gap: 6px;
     font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif; }
   .rtag { font-size: 9.5px; font-weight: 700; letter-spacing: 1.2px; color: #fff;
     padding: 2px 6px; text-transform: uppercase; white-space: nowrap; }
   .rtag.asia { background: #8a1c1c; } .rtag.europe { background: #1d4e79; }
-  .rtag.oceania { background: #2e5d1e; }
+  .rtag.oceania { background: #2e5d1e; } .rtag.africa { background: #b26a00; }
+  .rtag.samerica { background: #6a3d9a; } .rtag.namerica { background: #0f766e; }
   .cat { font-size: 9.5px; letter-spacing: 1.2px; color: #555; text-transform: uppercase;
     white-space: nowrap; }
   .vbadge { margin-left: auto; font-size: 9.5px; font-weight: 700; letter-spacing: 0.8px;
@@ -88,8 +89,8 @@
   .ptags .dev { font-size: 9px; padding: 2px 5px; }
 
   /* ---------- map ---------- */
-  .mapbox { margin-top: 5px; border: 1.8px solid #141414; background: #dde8ea;
-    padding: 5px 10px; flex: none; overflow: hidden; display: flex; gap: 14px;
+  .mapbox { margin-top: 4px; border: 1.8px solid #141414; background: #dde8ea;
+    padding: 4px 10px; flex: none; overflow: hidden; display: flex; gap: 14px;
     align-items: flex-start; }
   .mapbox svg { flex: none; }
   .mapside { flex: 1; }
@@ -97,24 +98,25 @@
     font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
   .mapside h3 span { color: #8a1c1c; }
   .mapside .legend { font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
-    font-size: 10px; font-weight: 700; letter-spacing: 1px; color: #333; margin-top: 5px; }
+    font-size: 10px; font-weight: 700; letter-spacing: 1px; color: #333; margin-top: 4px; }
+  .leggrid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px 12px; margin-top: 2px; }
   .legrow { font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
-    font-size: 11px; font-weight: 700; letter-spacing: 0.8px; color: #333; margin-top: 2px; }
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.8px; color: #333; }
   .legrow i { display: inline-block; width: 9px; height: 9px; border-radius: 50%;
     margin-right: 6px; vertical-align: -1px; }
   .mapnote { font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
-    font-size: 10px; line-height: 1.3; color: #444; margin-top: 5px; }
+    font-size: 10px; line-height: 1.3; color: #444; margin-top: 4px; }
 
   /* ---------- also list ---------- */
-  .also { margin-top: 5px; flex: none; }
+  .also { margin-top: 4px; flex: none; }
   .also h3 { font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
     font-size: 13.5px; font-weight: 700; letter-spacing: 2.2px; text-transform: uppercase;
-    border-bottom: 2.5px solid #141414; padding-bottom: 2px; margin-bottom: 3px; }
+    border-bottom: 2.5px solid #141414; padding-bottom: 1px; margin-bottom: 2px; }
   .also h3 span { color: #8a1c1c; }
   .cols { display: flex; gap: 16px; }
   .col { flex: 1; }
-  .item { display: flex; gap: 6px; align-items: flex-start; padding: 1.4px 0;
-    font-size: 11.2px; line-height: 1.16; }
+  .item { display: flex; gap: 6px; align-items: flex-start; padding: 0;
+    font-size: 11.2px; line-height: 1.12; }
   .item .num { width: 18px; height: 18px; font-size: 10.5px; }
   .item b { font-size: 11.2px; }
   .item span { color: #333; }
@@ -123,7 +125,7 @@
   .footer { margin-top: auto; border-top: 1.5px solid #141414; padding-top: 2px;
     font-family: "Helvetica Neue", Arial, "DejaVu Sans", sans-serif; }
   .footer .claim { font-size: 11px; font-weight: 700; text-align: center; padding-bottom: 1px; }
-  .footer .src { font-size: 8.3px; line-height: 1.25; color: #3c3c3c; text-align: center; }
+  .footer .src { font-size: 8px; line-height: 1.25; color: #3c3c3c; text-align: center; }
 </style>
 </head>
 <body>
@@ -131,7 +133,7 @@
 
   <div class="kicker"><span>The day in one page</span><span class="right">World news &middot; One image</span></div>
   <div class="dateline">WEDNESDAY, 18 NOVEMBER 2026</div>
-  <div class="strip">28 stories &middot; Worldwide</div>
+  <div class="strip">36 stories &middot; 6 continents</div>
   <div class="rule-double"></div>
 
   <!-- ============ FEATURES ============ -->
@@ -175,9 +177,9 @@
   <!-- ============ BY THE NUMBERS ============ -->
   <div class="numbers">
     <h3><span>By the</span> numbers</h3>
-    <div class="stat"><b>19.7%</b><span>Australia&rsquo;s gender pay gap &mdash; first below 20%</span></div>
-    <div class="stat"><b>&yen;11.8tn</b><span>Japan&rsquo;s October exports, an all-time record</span></div>
-    <div class="stat"><b>+1.1%</b><span>Australian wages &mdash; best quarter since Dec 2023</span></div>
+    <div class="stat"><b>&euro;45bn</b><span>EU&rsquo;s proposed new Ukraine loan for 2027</span></div>
+    <div class="stat"><b>3.6%</b><span>UK inflation &mdash; a 12-month high</span></div>
+    <div class="stat"><b>24.4%</b><span>Latin America&rsquo;s poverty rate in 2025, UN says</span></div>
     <div class="stat"><b>215 km/h</b><span>Cyclone Xavier&rsquo;s sustained winds</span></div>
   </div>
 
@@ -185,82 +187,118 @@
   <div class="grid">
 
     <section class="panel">
-      <div class="phead"><span class="num">4</span><h2>M5.3 quake shakes Romania</h2></div>
-      <p>Deep Vrancea tremor at 130&nbsp;km, felt in Bucharest and Moldova.</p>
+      <div class="phead"><span class="num">4</span><h2>UK inflation hits 12-month high</h2></div>
+      <p>CPI 3.6% in October, up from 3.5%; fuel prices the main driver.</p>
+      <div class="ptags"><span class="rtag europe">Europe</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">5</span><h2>EU proposes &euro;45bn Ukraine loan</h2></div>
+      <p>&euro;25bn military, &euro;20bn budget; repaid via reparations.</p>
+      <div class="ptags"><span class="rtag europe">Europe</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">6</span><h2>Ruto pledges police accountability</h2></div>
+      <p>Nairobi speech; Sh2bn set aside for protest victims.</p>
+      <div class="ptags"><span class="rtag africa">Africa</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">7</span><h2>Ghana cuts policy rate to 11%</h2></div>
+      <p>Surprise 300-point cut from 14% &mdash; a &lsquo;realignment&rsquo;.</p>
+      <div class="ptags"><span class="rtag africa">Africa</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">8</span><h2>Latin poverty eases to 24.4%</h2></div>
+      <p>Pensions hold elderly poverty at 10.4%, not 41.8%.</p>
+      <div class="ptags"><span class="rtag samerica">S. America</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">9</span><h2>Brazil signals more fiscal steps</h2></div>
+      <p>Finance chief: Senate package is only a &lsquo;first step&rsquo;.</p>
+      <div class="ptags"><span class="rtag samerica">S. America</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">10</span><h2>U.S. crude stocks jump 3.4m barrels</h2></div>
+      <p>EIA weekly data; gasoline up 5.2m; Brent near $92.</p>
+      <div class="ptags"><span class="rtag namerica">N. America</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">11</span><h2>Duckett&rsquo;s 133 seals England series win</h2></div>
+      <p>97-run win in Hobart seals the ODI series 2&ndash;1.</p>
+      <div class="ptags"><span class="rtag oceania">Oceania</span><span class="cat">Sport</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">12</span><h2>M5.3 quake shakes Romania</h2></div>
+      <p>Deep Vrancea tremor, felt in Bucharest and Moldova.</p>
       <div class="ptags"><span class="rtag europe">Europe</span><span class="cat">Other</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
     <section class="panel">
-      <div class="phead"><span class="num">5</span><h2>Oil eases below $93</h2></div>
-      <p>Brent $92.98 in morning trade as U.S. crude stocks rose 5.28m barrels.</p>
+      <div class="phead"><span class="num">13</span><h2>Japan exports hit record</h2></div>
+      <p>Up 20.5% in October to &yen;11.8 trillion, a record.</p>
       <div class="ptags"><span class="rtag asia">Asia</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
     <section class="panel">
-      <div class="phead"><span class="num">6</span><h2>Japan exports hit record</h2></div>
-      <p>Up 20.5% in October to &yen;11.8 trillion, a 14th straight monthly rise.</p>
-      <div class="ptags"><span class="rtag asia">Asia</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
-    </section>
-
-    <section class="panel">
-      <div class="phead"><span class="num">7</span><h2>1,500 jobs to go at David Jones</h2></div>
-      <p>Union says 19 stores will close; 170 of 1,689 staff offered new roles.</p>
-      <div class="ptags"><span class="rtag oceania">Oceania</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
-    </section>
-
-    <section class="panel">
-      <div class="phead"><span class="num">8</span><h2>UK &lsquo;likely to miss&rsquo; climate targets</h2></div>
-      <p>Advisers warn if the EV mandate is weakened; 15m more barrels of oil a year by 2030.</p>
-      <div class="ptags"><span class="rtag europe">Europe</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
-    </section>
-
-    <section class="panel">
-      <div class="phead"><span class="num">9</span><h2>EU deal to speed green permits</h2></div>
-      <p>Provisional pact on renewables, grids and storage; states get 1.5 years to transpose it.</p>
-      <div class="ptags"><span class="rtag europe">Europe</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
-    </section>
-
-    <section class="panel">
-      <div class="phead"><span class="num">10</span><h2>&lsquo;We are not under systemic attack&rsquo;</h2></div>
-      <p>Rubio in Manila: zero evidence linking U.S. outages to hostile actors.</p>
+      <div class="phead"><span class="num">14</span><h2>&lsquo;We are not under systemic attack&rsquo;</h2></div>
+      <p>Rubio in Manila: outages not linked to hostile actors.</p>
       <div class="ptags"><span class="rtag asia">Asia</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
     <section class="panel">
-      <div class="phead"><span class="num">11</span><h2>Putin expects &lsquo;big potential benefit&rsquo;</h2></div>
-      <p>At the APEC CEO Summit, ahead of Thursday&rsquo;s meeting with Trump and Xi.</p>
+      <div class="phead"><span class="num">15</span><h2>Putin expects &lsquo;big potential benefit&rsquo;</h2></div>
+      <p>Ahead of Thursday&rsquo;s trilateral with Trump and Xi.</p>
       <div class="ptags"><span class="rtag asia">Asia</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
     <section class="panel">
-      <div class="phead"><span class="num">12</span><h2>Trump: &lsquo;something big&rsquo; on nuclear</h2></div>
-      <p>U.S. expands defence ties with Manila; over $5bn in arms sales approved.</p>
+      <div class="phead"><span class="num">16</span><h2>Trump: &lsquo;something big&rsquo; on nuclear</h2></div>
+      <p>Manila ties expand; $5bn+ arms sales approved.</p>
       <div class="ptags"><span class="rtag asia">Asia</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
     <section class="panel">
-      <div class="phead"><span class="num">13</span><h2>Category 5 Xavier nears Cook Islands</h2></div>
-      <p>Gale warnings for Pukapuka and Nassau; sustained winds 215&nbsp;km/h.</p>
+      <div class="phead"><span class="num">17</span><h2>Category 5 Xavier nears Cook Islands</h2></div>
+      <p>Gale warnings for Pukapuka, Nassau; winds 215&nbsp;km/h.</p>
       <div class="ptags"><span class="rtag oceania">Oceania</span><span class="cat">Other</span><span class="dev">Developing</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
     <section class="panel">
-      <div class="phead"><span class="num">14</span><h2>Lee: peace on Korean Peninsula</h2></div>
-      <p>Told Xi at a 30-minute APEC sidelines meeting in Shenzhen.</p>
+      <div class="phead"><span class="num">18</span><h2>Lee: peace on Korean Peninsula</h2></div>
+      <p>Told Xi at a 30-minute APEC sidelines meeting.</p>
       <div class="ptags"><span class="rtag asia">Asia</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
     <section class="panel">
-      <div class="phead"><span class="num">15</span><h2>BOJ&rsquo;s Ueda: keep raising rates</h2></div>
-      <p>Told parliament underlying inflation must anchor near 2%.</p>
+      <div class="phead"><span class="num">19</span><h2>BOJ&rsquo;s Ueda: keep raising rates</h2></div>
+      <p>Says underlying inflation must anchor near 2%.</p>
       <div class="ptags"><span class="rtag asia">Asia</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">20</span><h2>1,500 jobs to go at David Jones</h2></div>
+      <p>19 stores to close, union says; 170 offered roles.</p>
+      <div class="ptags"><span class="rtag oceania">Oceania</span><span class="cat">Economy</span><span class="vbadge">&#10003; Verified</span></div>
+    </section>
+
+    <section class="panel">
+      <div class="phead"><span class="num">21</span><h2>UK &lsquo;likely to miss&rsquo; climate targets</h2></div>
+      <p>EV rollback: 15m more oil barrels a year by 2030.</p>
+      <div class="ptags"><span class="rtag europe">Europe</span><span class="cat">Politics</span><span class="vbadge">&#10003; Verified</span></div>
     </section>
 
   </div>
 
   <!-- ============ MAP ============ -->
   <div class="mapbox">
-    <svg viewBox="0 0 640 108" width="540" height="91" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+    <svg viewBox="0 0 640 108" width="510" height="86" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
       <rect x="0" y="0" width="640" height="108" fill="#dde8ea"/>
       <g stroke="#c3d2d6" stroke-width="0.7">
         <line x1="80" y1="0" x2="80" y2="108"/><line x1="160" y1="0" x2="160" y2="108"/>
@@ -287,35 +325,46 @@
         <text x="44" y="26">NORTH AMERICA</text>
         <text x="120" y="90">S. AMERICA</text>
         <text x="296" y="11">EUROPE</text>
-        <text x="306" y="62">AFRICA</text>
+        <text x="297" y="77">AFRICA</text>
         <text x="452" y="30">ASIA</text>
         <text x="528" y="70">OCEANIA</text>
       </g>
       <g font-family="Helvetica Neue, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">
-        <g><circle cx="278" cy="18" r="6" fill="#1d4e79" stroke="#fff" stroke-width="1"/><text x="278" y="18">8</text></g>
-        <g><circle cx="322" cy="28" r="6" fill="#1d4e79" stroke="#fff" stroke-width="1"/><text x="322" y="28">9</text></g>
-        <g><circle cx="346" cy="32" r="6" fill="#1d4e79" stroke="#fff" stroke-width="1"/><text x="346" y="32">4</text></g>
+        <g><circle cx="150" cy="38" r="6" fill="#0f766e" stroke="#fff" stroke-width="1"/><text x="150" y="38">10</text></g>
+        <g><circle cx="132" cy="96" r="6" fill="#6a3d9a" stroke="#fff" stroke-width="1"/><text x="132" y="96">8</text></g>
+        <g><circle cx="158" cy="86" r="6" fill="#6a3d9a" stroke="#fff" stroke-width="1"/><text x="158" y="86">9</text></g>
+        <g><circle cx="272" cy="17" r="6" fill="#1d4e79" stroke="#fff" stroke-width="1"/><text x="272" y="17">4</text></g>
+        <g><circle cx="286" cy="17" r="6" fill="#1d4e79" stroke="#fff" stroke-width="1"/><text x="286" y="17">21</text></g>
+        <g><circle cx="322" cy="28" r="6" fill="#1d4e79" stroke="#fff" stroke-width="1"/><text x="322" y="28">5</text></g>
+        <g><circle cx="346" cy="32" r="6" fill="#1d4e79" stroke="#fff" stroke-width="1"/><text x="346" y="32">12</text></g>
+        <g><circle cx="300" cy="60" r="6" fill="#b26a00" stroke="#fff" stroke-width="1"/><text x="300" y="60">7</text></g>
+        <g><circle cx="340" cy="62" r="6" fill="#b26a00" stroke="#fff" stroke-width="1"/><text x="340" y="62">6</text></g>
         <g><circle cx="392" cy="41" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="392" y="41">2</text></g>
-        <g><circle cx="406" cy="34" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="406" y="34">5</text></g>
         <g><circle cx="462" cy="53" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="462" y="53">3</text></g>
-        <g><circle cx="493" cy="42" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="493" y="42">1</text></g>
-        <g><circle cx="508" cy="42" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="508" y="42">11</text></g>
-        <g><circle cx="523" cy="42" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="523" y="42">14</text></g>
-        <g><circle cx="507" cy="50" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="507" y="50">10</text></g>
-        <g><circle cx="522" cy="50" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="522" y="50">12</text></g>
-        <g><circle cx="541" cy="35" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="541" y="35">6</text></g>
-        <g><circle cx="556" cy="35" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="556" y="35">15</text></g>
-        <g><circle cx="550" cy="83" r="6" fill="#2e5d1e" stroke="#fff" stroke-width="1"/><text x="550" y="83">7</text></g>
-        <g><circle cx="614" cy="70" r="6" fill="#2e5d1e" stroke="#fff" stroke-width="1"/><text x="614" y="70">13</text></g>
+        <g><circle cx="491" cy="42" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="491" y="42">1</text></g>
+        <g><circle cx="506" cy="42" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="506" y="42">15</text></g>
+        <g><circle cx="524" cy="37" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="524" y="37">18</text></g>
+        <g><circle cx="541" cy="35" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="541" y="35">13</text></g>
+        <g><circle cx="556" cy="35" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="556" y="35">19</text></g>
+        <g><circle cx="507" cy="50" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="507" y="50">14</text></g>
+        <g><circle cx="522" cy="50" r="6" fill="#8a1c1c" stroke="#fff" stroke-width="1"/><text x="522" y="50">16</text></g>
+        <g><circle cx="550" cy="83" r="6" fill="#2e5d1e" stroke="#fff" stroke-width="1"/><text x="550" y="83">20</text></g>
+        <g><circle cx="576" cy="101" r="6" fill="#2e5d1e" stroke="#fff" stroke-width="1"/><text x="576" y="101">11</text></g>
+        <g><circle cx="614" cy="70" r="6" fill="#2e5d1e" stroke="#fff" stroke-width="1"/><text x="614" y="70">17</text></g>
       </g>
     </svg>
     <div class="mapside">
-      <h3><span>Where it happened</span> &middot; pins 1&ndash;15</h3>
+      <h3><span>Where it happened</span> &middot; pins 1&ndash;21</h3>
       <div class="legend">PIN COLOUR BY REGION</div>
-      <div class="legrow"><i style="background:#8a1c1c"></i>ASIA &mdash; 10 pins</div>
-      <div class="legrow"><i style="background:#1d4e79"></i>EUROPE &mdash; 3 pins</div>
-      <div class="legrow"><i style="background:#2e5d1e"></i>OCEANIA &mdash; 2 pins</div>
-      <p class="mapnote">Schematic map. Pins mark features and grid stories 1&ndash;15 only; ALSO ON stories 16&ndash;28 are listed below without pins. Pins at one city sit side by side.</p>
+      <div class="leggrid">
+        <div class="legrow"><i style="background:#8a1c1c"></i>ASIA &mdash; 9 pins</div>
+        <div class="legrow"><i style="background:#1d4e79"></i>EUROPE &mdash; 4 pins</div>
+        <div class="legrow"><i style="background:#b26a00"></i>AFRICA &mdash; 2 pins</div>
+        <div class="legrow"><i style="background:#6a3d9a"></i>S. AMERICA &mdash; 2 pins</div>
+        <div class="legrow"><i style="background:#0f766e"></i>N. AMERICA &mdash; 1 pin</div>
+        <div class="legrow"><i style="background:#2e5d1e"></i>OCEANIA &mdash; 3 pins</div>
+      </div>
+      <p class="mapnote">Schematic map. Pins mark features and grid stories 1&ndash;21 only; ALSO ON stories 22&ndash;36 are listed below without pins. Pins at one city sit side by side.</p>
     </div>
   </div>
 
@@ -324,31 +373,33 @@
     <h3><span>Also</span> on Wednesday 18 November</h3>
     <div class="cols">
       <div class="col">
-        <div class="item"><span class="num">16</span><div><b>UK pay deals edge up to 3.2%.</b> <span>31 settlements covering ~850,000 staff.</span></div></div>
-        <div class="item"><span class="num">17</span><div><b>Cricket Australia sets up confidential forum.</b> <span>For 2018 tour accounts; no re-investigation.</span></div></div>
-        <div class="item"><span class="num">18</span><div><b>Gender pay gap falls below 20%.</b> <span>19.7%; women earn $27,467 a year less.</span></div></div>
-        <div class="item"><span class="num">19</span><div><b>Ukraine: 3 reported killed in Belgorod; power hit in 9 regions.</b> <span>Kyiv reports strikes; Moscow claims 709 drones downed.</span></div></div>
+        <div class="item"><span class="num">22</span><div><b>EU deal to speed green permits.</b> <span>Renewables, grids, storage; 1.5 years to transpose.</span></div></div>
+        <div class="item"><span class="num">23</span><div><b>UK pay deals edge up to 3.2%.</b> <span>31 settlements covering ~850,000 staff.</span></div></div>
+        <div class="item"><span class="num">24</span><div><b>Cricket Australia sets up confidential forum.</b> <span>For 2018 tour accounts; no re-investigation.</span></div></div>
+        <div class="item"><span class="num">25</span><div><b>Gender pay gap falls below 20%.</b> <span>19.7%; women earn $27,467 a year less.</span></div></div>
+        <div class="item"><span class="num">26</span><div><b>Ukraine: 3 reported killed in Belgorod; power hit in 9 regions.</b> <span>Kyiv reports strikes; Moscow claims 709 drones downed.</span></div></div>
       </div>
       <div class="col">
-        <div class="item"><span class="num">20</span><div><b>54% of Australians say life got worse.</b> <span>Salvation Army survey; cost of living bites.</span></div></div>
-        <div class="item"><span class="num">21</span><div><b>Anwar urges region to resist rival blocs.</b> <span>Keynote at APEC CEO Summit.</span></div></div>
-        <div class="item"><span class="num">22</span><div><b>HRW: 245 held since Manila protests.</b> <span>Detained three days without charge, group says.</span></div></div>
-        <div class="item"><span class="num">23</span><div><b>First World Mental Health First Aid Day.</b> <span>10 million trained across 53 countries.</span></div></div>
-        <div class="item"><span class="num">24</span><div><b>Wages jump 1.1% in Sept quarter.</b> <span>Annual 3.5%; strongest since Dec 2023.</span></div></div>
+        <div class="item"><span class="num">27</span><div><b>54% of Australians say life got worse.</b> <span>Salvation Army survey; cost of living bites.</span></div></div>
+        <div class="item"><span class="num">28</span><div><b>Anwar urges region to resist rival blocs.</b> <span>Keynote at APEC CEO Summit.</span></div></div>
+        <div class="item"><span class="num">29</span><div><b>HRW: 245 held since Manila protests.</b> <span>Detained three days without charge, group says.</span></div></div>
+        <div class="item"><span class="num">30</span><div><b>First World Mental Health First Aid Day.</b> <span>10 million trained across 53 countries, organisers say.</span></div></div>
+        <div class="item"><span class="num">31</span><div><b>Wages jump 1.1% in Sept quarter.</b> <span>Annual 3.5%; strongest since Dec 2023.</span></div></div>
       </div>
       <div class="col">
-        <div class="item"><span class="num">25</span><div><b>Hanson unveils migration cuts.</b> <span>Refugee intake 20,000 &rarr; 2,000; parent visas scrapped.</span></div></div>
-        <div class="item"><span class="num">26</span><div><b>WA wins gas carve-out; bill still in Senate.</b> <span>Zero federal obligation agreed; WA&rsquo;s 15% scheme stays.</span></div></div>
-        <div class="item"><span class="num">27</span><div><b>Early voting opens in Victoria.</b> <span>200+ centres; state election on 28 November.</span></div></div>
-        <div class="item"><span class="num">28</span><div><b>Thailand to seek U.S. tariff cut to 10%.</b> <span>After key terms agreed in Manila on Tuesday.</span></div></div>
+        <div class="item"><span class="num">32</span><div><b>Hanson unveils migration cuts.</b> <span>Refugee intake 20,000 &rarr; 2,000; parent visas scrapped.</span></div></div>
+        <div class="item"><span class="num">33</span><div><b>WA wins gas carve-out; bill still in Senate.</b> <span>Zero federal obligation agreed; WA&rsquo;s 15% scheme stays.</span></div></div>
+        <div class="item"><span class="num">34</span><div><b>Early voting opens in Victoria.</b> <span>210 centres; state election on 28 November.</span></div></div>
+        <div class="item"><span class="num">35</span><div><b>Thailand to seek U.S. tariff cut to 10%.</b> <span>After key terms agreed in Manila on Tuesday.</span></div></div>
+        <div class="item"><span class="num">36</span><div><b>Tame Impala wins seven ARIA Awards.</b> <span>Album of the Year for Deadbeat; Ecca Vandal takes four.</span></div></div>
       </div>
     </div>
   </div>
 
   <!-- ============ FOOTER ============ -->
   <div class="footer">
-    <div class="claim">Every story here happened or was first reported on Wednesday 18 November 2026. Checked against 2+ sources. Last update 13:17 WIB / 06:17 UTC.</div>
-    <div class="src">Sources: Reuters &middot; Metapress &middot; Gulf Business &middot; AFP &middot; IMD &middot; Transclew &middot; USGS &middot; EMSC &middot; FXStreet &middot; BigGo Finance &middot; Grafa &middot; Climate Change Committee &middot; EU Council &middot; Bloomberg Law &middot; TBS News &middot; AnewZ &middot; Apex Wire &middot; Yonhap &middot; MNI &middot; ESPNcricinfo &middot; cricket.com.au &middot; WGEA &middot; MediaNet &middot; Al Jazeera &middot; ABC News &middot; Media Selangor &middot; BusinessToday &middot; Human Rights Watch &middot; MHFA International &middot; ABS &middot; AAP &middot; Valcored News &middot; Victorian Electoral Commission &middot; ASEAN NOW &middot; Fiji Met Service &middot; The Cooldown. Original drawings.</div>
+    <div class="claim">Every story here happened or was first reported on Wednesday 18 November 2026. Checked against 2+ sources. Last update 00:21 WIB / 17:21 UTC.</div>
+    <div class="src">Sources: Reuters &middot; Metapress &middot; Gulf Business &middot; IMD &middot; USGS &middot; EMSC &middot; EIA &middot; OilPrice.com &middot; Barchart &middot; Grafa &middot; Climate Change Committee &middot; EU Council &middot; European Commission &middot; Bloomberg Law &middot; Yonhap &middot; ONS &middot; Capital FM &middot; Graphic Online &middot; Bloomberg L&iacute;nea &middot; CEPAL &middot; G1 &middot; cricket.com.au &middot; ESPNcricinfo &middot; WGEA &middot; Al Jazeera &middot; ABC News &middot; Media Selangor &middot; Human Rights Watch &middot; MHFA International &middot; ABS &middot; AAP &middot; Victorian Electoral Commission &middot; ASEAN NOW &middot; Fiji Met Service &middot; The Cooldown &middot; Music Feeds. Original drawings.</div>
   </div>
 
 </div>
