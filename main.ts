@@ -8,11 +8,13 @@
 
 import { copyFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import { dirname, join } from "node:path";
+import { dirname, join, resolve } from "node:path";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SOURCE = join(HERE, "entry.png");
-const OUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
+// Resolve so a relative MAKEFUN_OUTPUT_DIR works no matter where the
+// process was launched from; the harness passes an absolute path.
+const OUT_DIR = resolve(process.env.MAKEFUN_OUTPUT_DIR ?? "/output");
 const TARGET = join(OUT_DIR, "entry.png");
 
 await mkdir(OUT_DIR, { recursive: true });
