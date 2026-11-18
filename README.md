@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261118/joker31313131/news-image-18-nov/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 [![reward](https://make.fun/badge/news-image-20261118/joker31313131/news-image-18-nov/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
-A one-page newspaper poster summing up the world news of Wednesday 18 November 2026: the APEC summit opening in Shenzhen, fresh drone attacks in the Gulf, Cyclone Akvan, the Romania quake, and easing oil prices. The poster is drawn in poster.html and shipped as entry.png; main.ts copies it to the output directory byte for byte.
+A dense one-page newspaper poster summing up 29 verified stories from Wednesday 18 November 2026: the APEC summit opening in Shenzhen, fresh drone attacks in the Gulf, Cyclone Akvan, the Romania quake, easing oil prices, and 24 more stories from Asia, Europe, Oceania and beyond — with a numbered world map, a by-the-numbers strip, and a full source list. Every story happened or was first reported on 18 November 2026; disputed claims are attributed. The poster is drawn in poster.html (system fonts only, zero external resources, zero scripts, all artwork original) and shipped as entry.png; main.ts copies it to the output directory byte for byte.
 
 ## Run it
 
